@@ -1,10 +1,11 @@
+import assets from "../src/assets/assets"
 
 
 export const workData = [
         {
             title: 'Mobile App Marketing',
             description: 'We turn bold ideas into powerful digital solution that connect, engage...',
-            image:src/assets/work_mobile_app.png
+            image: assets.work_mobile_app
         }, {
             title: 'Dashboard Managemenat',
             description: 'We help you execute your plan and deliver results.',
