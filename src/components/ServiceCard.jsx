@@ -1,6 +1,6 @@
 import React, { useRef,useState} from 'react'
 
-const ServiceCard = ({service, index}) => {
+const ServiceCard = ({service, index: _index}) => {
 const [position, setposition] = useState({x:0, y:0})
 const [visible, setvisible] = useState(false);
 const divRef = useRef(null)

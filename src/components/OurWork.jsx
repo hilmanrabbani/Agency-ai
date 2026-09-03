@@ -3,7 +3,6 @@ import { workData } from "../../constant/ourWork.js"
 import Title from "./Title"
 
 const OurWork = () => {
-console.log(workData)    
     return (
         <div id='our-work' className='relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-300 dark:text-white'>
             <img src={assets.bgImage2} alt="" className='absolute -top-110 -left-70 -z-1 dark:hidden' />
